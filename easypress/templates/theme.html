@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<link rel="stylesheet" href="/static/uploads/api_css.css">
+<body>
+
+<h2> {{ filename }} </h2>
+
+<br><br style="margin-top:70%;">
+
+<!-- manual for now -->
+<img src="{{ url_for('static', filename=filename) }}" width="100px" height="100px">
+<div id="page">
+        <iframe width="100%" style="height:900px;" src="{{ url_for('static', filename=filename) }}"><iframe>
+  </div>
+<br><br>
+<hr style="margin-top:70%;">
+<p>Mahmoud Hegazy Full Stack Web Developer Certifed by <a>udacity.com</a></p>
+</body>
+</html>
