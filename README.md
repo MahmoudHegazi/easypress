@@ -33,3 +33,5 @@ Path | IP | Method | Status | Time | ID
  |  |  |  | 
 
 <img src="css_api.PNG">
+
+parse the html or css uploaded file and create a copy in the place you want static or templates
